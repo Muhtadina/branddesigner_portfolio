@@ -38,9 +38,15 @@
 }
 
 body {
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
     background: var(--bg);
     color: var(--text);
+}
+
+body h1, h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 800; 
 }
 
 .container {
@@ -71,8 +77,12 @@ nav {
 
 /* Make logo smaller */
 .logo {
-    font-weight: 800;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
     font-size: 1.2rem;     
+}
+.logo b{
+    font-size: 2rem;
 }
 
 header .container {
@@ -211,6 +221,13 @@ header .container {
     .hero-image img {
         width: 250px;
     }
+}
+
+.logo-bg img{
+    width: 70%;
+    height: 50%;
+    border-radius: 5px;
+    border: 2px solid rgb(51, 0, 255);
 }
 
 /* Horizontal Line*/
