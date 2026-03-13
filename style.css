@@ -277,7 +277,8 @@ header .container {
     display: flex;
     justify-content: center;
 
-    max-width: 300px;
+    width: 100%;
+    max-width: 30%;
     border-radius: 20px;
     box-shadow: var(--box-shadow);
 }
