@@ -278,9 +278,10 @@ header .container {
     justify-content: center;
 
     width: 100%;
-    max-width: 300px;
+    max-width: 450px;
     border-radius: 20px;
-    box-shadow: var(--box-shadow);
+    /*box-shadow: var(--box-shadow);*/
+    filter: drop-shadow(0 12px 20px rgba(0,0,0,0.45));
 }
 .hero-overlay{
     position: absolute;       /* position relative to hero-container */
